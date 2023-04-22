@@ -1,0 +1,86 @@
+#products {
+  padding-top: 100px;
+  text-align: center;
+  background-color: white;
+  padding-bottom: 50px;
+}
+
+#prodcuts .products-heading {
+  text-align: center;
+  margin: 5% 0;
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+
+#products .products-cards {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+#products .products-items {
+  width: 400px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+
+#products img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.products-image:hover{
+  transform: scale(1.5);
+  transition: transform 0.3s ease-out;
+  z-index: 1;
+}
+.products-image {
+  position: relative;
+}
+
+#products .products-items .discription {
+  padding: 15px;
+}
+
+#products h2{
+  font-size: 35px;
+  padding: 1%;
+  
+}
+
+#products p{
+  color: #aaa;
+  text-align: start;
+  font-size: 15px;
+}
+
+#products h3{
+  font-size: 1.5em;
+  color: black;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    text-align: Start;
+}
+#products hr{
+  border: 0;
+    border-bottom: 5px solid #ed2c1e;
+    width: 70px;
+    margin: auto;
+    margin-top: -5px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+@media screen and (max-width) {
+  #products-headding h2 {
+    font-size: 25px;
+    }
+}

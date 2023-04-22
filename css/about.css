@@ -1,0 +1,46 @@
+#about {
+    background-color: #f7f7f7;
+    display: flex;
+    align-items: center;
+    padding: 25px;
+    padding-top: 120px;
+  }
+  
+  #about .about-image {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  #about .about-title {
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  #about .about-content p {
+    margin-top: 20px;
+    color: black;
+  }
+  
+  #about .about-content {
+    padding: 0 5%;
+  }
+  
+  @media screen and (max-width: 767px) {
+    #about{
+  padding: 15px;
+}
+ 
+  #about h2 {
+  font-size: 25px;
+ } 
+
+ #about p {
+   font-size: 15px;
+ }
+
+ #about .about-image {
+   display: none;
+ }
+
+  }

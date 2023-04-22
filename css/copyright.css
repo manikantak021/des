@@ -1,0 +1,17 @@
+
+.copy-rights{
+    background-color: #222831;
+    color: #c8c6c6;
+    padding: 20px;
+    text-align: center;
+      
+}
+@media screen and (max-width:767px) {
+    .copy-rights{
+        background-color: #222831;
+        color: #c8c6c6;
+        padding: 20px;
+        text-align: center;
+          
+    }
+    }

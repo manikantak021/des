@@ -1,0 +1,35 @@
+.utilitybar.colored-bg{
+    background-color: #000000;
+    
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #aaa;
+    text-align: center;
+    line-height: 1.5;
+}
+.icon-container{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+.icon-container i{
+    margin-right: 5px;
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.top{
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+@media screen and (max-width: 767px) {
+    .icon-container{
+        font-size: 13px;
+    }
+}

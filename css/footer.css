@@ -1,0 +1,40 @@
+footer {
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #404040;
+    color: #fff;
+  }
+  
+  footer h3 {
+    margin: 5px 0;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 5px 0;
+    color: #c8c6c6;
+    text-align: center;
+  }
+  
+  footer a {
+    display: block;
+    margin: 5px 0;
+    text-decoration: none;
+    color: #c8c6c6;
+  }
+
+  @media screen and (max-width: 767px) {
+    footer{
+      flex-direction: column;
+    }
+    footer div{
+      margin: 15px 0;
+    }
+    footer a {
+        text-align: center;
+    }
+  
+  }
+  
